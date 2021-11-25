@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Preloader from "../layout/Preloader";
 import LogItem from "./LogItem";
 
-const Log = () => {
+const Logs = () => {
   const [logs, setLogs] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -36,4 +36,4 @@ const Log = () => {
   );
 };
 
-export default Log;
+export default Logs;
