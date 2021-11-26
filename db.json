@@ -8,18 +8,18 @@
       "id": 1
     },
     {
-      "message": "Hard Drive failed in workstation 002",
-      "attention": true,
-      "tech": "Shruti",
-      "date": "2021-11-26T03:54:25.131Z",
-      "id": 2
+      "id": 2,
+      "message": "Fixed Hard Drive  on workstation 002",
+      "attention": false,
+      "tech": "Vanda",
+      "date": "2021-11-26T06:11:32.971Z"
     },
     {
-      "message": "1122 Wireless down",
-      "attention": true,
-      "tech": "Vanda",
-      "date": "2021-11-26T04:21:38.988Z",
-      "id": 3
+      "id": 3,
+      "message": "1122 Wireless up and running",
+      "attention": false,
+      "tech": "Shruti",
+      "date": "2021-11-26T06:08:20.059Z"
     }
   ],
   "techs": [
