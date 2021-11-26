@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import Preloader from "../layout/Preloader";
 import LogItem from "./LogItem";
@@ -27,8 +27,9 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
   );
 };
 
-Logs.prototype = {
+Logs.protoType = {
   log: PropTypes.object.isRequired,
+  getLogs: PropTypes.func.isRequired,
 };
 
 //const log = useSelector((state) => state.log);
