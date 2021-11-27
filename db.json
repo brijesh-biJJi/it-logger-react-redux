@@ -2,10 +2,10 @@
   "logs": [
     {
       "id": 1,
-      "message": "Changed network card on Server 007",
+      "message": "Changed Network Card on Server 007",
       "attention": false,
-      "tech": "Brijesh Salian",
-      "date": "2021-11-26T07:03:24.577Z"
+      "tech": "Srijan Salian",
+      "date": "2021-11-27T13:42:31.948Z"
     },
     {
       "id": 2,
@@ -39,9 +39,24 @@
       "lastName": "Wilson"
     },
     {
+      "id": 4,
       "firstName": "Brijesh",
+      "lastName": "Salian"
+    },
+    {
+      "firstName": "Srijan",
       "lastName": "Salian",
-      "id": 4
+      "id": 5
+    },
+    {
+      "firstName": "Sumit",
+      "lastName": "Chaurasia",
+      "id": 6
+    },
+    {
+      "firstName": "Thushaar",
+      "lastName": "Kanchan",
+      "id": 7
     }
   ]
 }

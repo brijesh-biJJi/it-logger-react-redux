@@ -8,7 +8,15 @@ const TechSelectOptions = ({ tech: { techs, loading }, getTechs }) => {
     getTechs();
     //eslint-disable-next-line
   }, []);
-  return <div></div>;
+  return (
+    !loading &&
+    techs !== null &&
+    techs.map((t) => (
+      <option key={t.id} value={`${t.firstName} ${t.lastName}`}>
+        {t.firstName} {t.lastName}
+      </option>
+    ))
+  );
 };
 
 const mapStateToProps = (state) => ({

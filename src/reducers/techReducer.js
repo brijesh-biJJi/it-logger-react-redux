@@ -32,6 +32,7 @@ const techReducer = (state = initialState, action) => {
       };
 
     case TECHS_ERROR:
+      console.error(action.payload);
       return {
         ...state,
         error: action.payload,
