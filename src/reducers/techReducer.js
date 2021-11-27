@@ -3,6 +3,7 @@ import {
   GET_TECHS,
   TECHS_ERROR,
   ADD_TECH,
+  DELETE_TECH,
 } from "../actions/types";
 
 const initialState = {
@@ -23,6 +24,13 @@ const techReducer = (state = initialState, action) => {
       return {
         ...state,
         techs: [...state.techs, action.payload],
+        loading: false,
+      };
+    case DELETE_TECH:
+      console.log("redu", action.payload);
+      return {
+        ...state,
+        techs: state.techs.filter((tech) => tech.id !== action.payload),
         loading: false,
       };
     case SET_LOADING:
